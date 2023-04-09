@@ -1,0 +1,117 @@
+body {
+  background-image: linear-gradient(to bottom, #6700e6, #1f0045);
+  border-radius: 25px;
+}
+
+h1,
+h2 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  border-bottom: solid 1px silver;
+  font-size: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  color: yellow;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 10px;
+  border: solid 1px #af6eff;
+  min-width: 250px;
+  min-height: 100px;
+  gap: 5px;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  align-content: flex-start;
+}
+
+li {
+  white-space: nowrap;
+  border-radius: 5px;
+  padding: 2px 4px;
+  display: flex;
+  justify-content: space-around;
+  gap: 3px;
+  height: 20px;
+  background-color: #ffffff3d;
+  color: white;
+}
+
+.btnRemove {
+  border: none;
+  background: none;
+  font-size: 10px;
+  cursor: pointer;
+  width: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnRemove:hover {
+  color: #f00;
+}
+
+input {
+  background-color: transparent;
+  color: white;
+  border: solid 1px rgba(255, 255, 255, 0.468);
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  width: 219px;
+}
+
+#add-key-word {
+  background-color: #af6eff;
+  color: #1f0045;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#add-key-word:hover {
+  background-color: #914ee2;
+  color: white;
+  cursor: pointer;
+}
+
+li.found {
+  box-shadow: 0 0 2px 1px #1afd7c;
+  color: #1afd7c;
+  background-color: #ffffff00;
+}
+
+#btnCheck {
+  width: 100%;
+  background-color: #af6eff;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#btnCheck:hover {
+  background-color: #914ee2;
+}
+
+p.message {
+  color: #fff;
+  text-align: center;
+  margin: 10px;
+  font-size: 12px;
+  height: 30px;
+}
